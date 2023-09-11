@@ -1,0 +1,24 @@
+{
+  "name": "waterfall-flow",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.9",
+    "@types/node": "^20.5.9",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "lodash-es": "^4.17.21",
+    "sass": "^1.66.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
